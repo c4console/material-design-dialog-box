@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dialogbox.c4console.com.alertdialogbox.MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#395360"
+        android:onClick="animatedDialog1"
+        android:layout_marginTop="16dp"
+        android:text="Animated Fall Dialog Box"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#1184be"
+        android:onClick="animatedDialog2"
+        android:layout_below="@+id/btn_1"
+        android:text="Animated Material Flip Dialog Box"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#395360"
+        android:onClick="animatedDialog3"
+        android:layout_below="@+id/btn_2"
+        android:text="Animated Material Shake Dialog Box"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btn_3"
+        android:background="#1184be"
+        android:onClick="animatedDialog4"
+        android:text="Animated Slide Top Dialog Box"
+        android:textColor="#fff" />
+
+</RelativeLayout>
